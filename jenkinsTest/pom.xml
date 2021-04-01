@@ -41,7 +41,7 @@
 				<configuration>
 					<images>
 						<image>
-							<name>jenkinsTest</name>
+							<name>jenkins</name>
 							<build>
 								<dockerFileDir>
 									#{basedir}
