@@ -41,11 +41,12 @@
 				<configuration>
 					<images>
 						<image>
-							<name>jenkins</name>
+							<name>jenkinsTest</name>
 							<build>
 								<dockerFileDir>
 									#{basedir}
 								</dockerFileDir>
+								<filter>@</filter>
 							</build>
 						</image>
 					</images>
